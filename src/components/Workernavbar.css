@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbardiv {
+  background: linear-gradient(
+    50deg,
+    rgba(225, 234, 255, 1) 0%,
+    rgb(89, 108, 251) 100%
+  );
+  overflow: hidden;
+  display: flex;
+  height: 13vh;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.8vw;
+  z-index: 1;
+}
+@media screen and (max-width: 760px) {
+  #navbardiv {
+    height: 10vw;
+  }
+}
+.object-nav {
+  position: relative;
+  color: white;
+  cursor: pointer;
+  font-size: 2.2vw;
+}
+a {
+  text-decoration: none;
+}
+/* .object-nav:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.7px;
+  width: 0%;
+  content: "";
+  background: white;
+  opacity: 0.2;
+  transition: 0.6s;
+} */
+.object-nav:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1.7px;
+  width: 0%;
+  content: "";
+  background: white;
+  opacity: 0.2;
+  transition: 0.6s;
+}
+/* .object-nav:hover::before {
+  opacity: 1;
+  width: 100%;
+} */
+.object-nav:hover::after {
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+img {
+  width: 80px;
+  height: auto;
+}
+
+#goodhour-h3{
+  font-size: 2.2vw;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #imgLogo {
+    width: 60px;
+  }
+  .object-nav {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 650px) {
+  #imgLogo {
+    width: 8vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  #divoflogo {
+    display: none;
+  }
+}
+#workerlogout-button-pic{
+  width: 2vw;
+}
+#workerlogout-button-container{
+  position: absolute;
+  right: 2vw;
+}

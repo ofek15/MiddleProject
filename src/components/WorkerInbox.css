@@ -1,0 +1,137 @@
+.WorkerInbox-div{
+    /* width: 60vw;
+    height: 60vw; */
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+    display: flex;
+}
+#workerinbox-header-h1{
+    text-align: center;
+}
+.Message-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vw;
+    width: 60vw;
+    padding: 2vw;
+}
+.ManagerInboxHeader{
+    font-size: 5vw;
+}
+.OpenMessage-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 15vw;
+    width: 60vw;
+    padding: 2vw;
+}
+.OpenMessage-header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 56vw;
+}
+.OpenMessage-content-div{
+    width: 56vw;
+    font-size: 2.5vw;
+}
+.OpenMessage-paragraph{
+    max-width: 50vw;
+    font-size: 2vw;
+}
+.CloseMessage-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    width: 60vw;
+    padding: 2vw;
+}
+.OpenCard{
+    font-size: 5vw;
+}
+.ClosedCard{
+    color: red;
+}
+.MessageButton{
+    background: linear-gradient(111deg, rgb(215, 231, 255) 0%, rgb(155, 157, 244) 100%);
+    margin: 2vw;
+    border-radius: 15px;
+}
+.MessageBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-button-message{
+    height: 4vw;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(111deg, rgb(238, 245, 255) 0%, rgb(207, 207, 207) 100%);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Message-is-read{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.Message-is-unread{
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(149, 149, 254);
+    width: 8vw;
+    height: 3vw;
+}
+.WorkerInbox-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.worker-inbox-name{
+    font-size: 2.5vw;
+}
+@media screen and (max-width:620px) {
+    .ManagerInboxHeader{
+        font-size: 8vw;
+    }
+    .MessageButton{
+        padding: 5vw;
+    }
+    #CloseMessage-div{
+        height: 8vw;
+    }
+    .worker-inbox-name{
+        font-size: 4vw;
+    }
+    .worker-inbox-date{
+        font-size: 3.5vw;
+    }
+    .worker-inbox-paragraph{
+        font-size: 3vw;
+    }
+    .OpenMessage-paragraph{
+        font-size: 5vw;
+    }
+    .Message-is-unread{
+        padding: 3vw;
+        font-size: 2.2vw;
+        width: 15vw;
+        height: 8vw;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        text-align: center;
+    }
+    .OpenMessage-div{
+        height: 20vw;
+    }
+    .OpenMessage-content-div{
+        margin-top: 3vw;
+    }
+  }
+  

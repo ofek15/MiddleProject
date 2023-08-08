@@ -1,0 +1,46 @@
+#worker-write-message-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    background: linear-gradient(180deg, rgb(189, 209, 255) 0%, rgb(120, 103, 249) 100%);
+    box-shadow: rgb(51, 77, 149) 0px 3px 10px 0px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5vw;
+    padding: 5vw;
+    margin-bottom: 4vw;
+}
+#textplace{
+    border-radius: 15px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding: 3.5vw;
+    box-shadow: rgb(186, 196, 224) 0px 3px 10px 0px;
+    width: 40vw;
+}
+#worker-write-button{
+    width: 20vw;
+    border: 0;
+    height: 6vw;
+    border-radius: 15px;
+    font-size: 2vw;
+    box-shadow: rgb(72, 72, 73) 0px 3px 10px 0px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+#worker-write-button:hover{
+    box-shadow: rgb(12, 181, 85) 0px 3px 10px 0px;
+}
+#worker-write-header{
+    font-size: 4.5vw;
+}
+@media screen and (max-width:620px) {
+    #worker-write-button{
+        padding: 3v;
+        height: 5vw;
+        font-size: 3vw;
+        width: 30vw;
+    }
+  }

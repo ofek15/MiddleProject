@@ -1,0 +1,116 @@
+#shifts-page-header{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.cardofshift-div{
+    margin: 5vw;
+    padding: 2vw;
+    box-shadow: 0px 1px 4px 2px #54609d;
+    border-radius: 15px;
+}
+#thisWeeksShifts-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+    background: linear-gradient( 260deg, rgb(85, 188, 198) 0%, rgb(72, 186, 247) 100% );
+    max-width: 80vw;
+    margin: auto;
+    box-shadow: 0px 3px 10px 5px #e2e3e8;
+    margin-bottom: 5vw;
+    border-radius: 15px;
+}
+#thisweeksshifts-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#unordered-list-ofshifts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+    border-radius: 15px;
+    max-width: 80vw;
+}
+#otherWeeksShifts-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3vw;
+        background: linear-gradient(
+        260deg,
+        rgb(85, 188, 198) 0%,
+        rgb(72, 186, 247) 100%
+      );
+        border-radius: 15px;
+        max-width: 80vw;
+        margin: auto;
+        box-shadow: 0px 3px 10px 5px #e2e3e8;
+        margin-bottom: 5vw;
+        border-radius: 15px;
+}
+#nextweekshifts-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.this-shifts-header{
+    font-size: 3.2vw;
+    color: white;
+}
+#shifts-page-container {
+    margin: 0 auto;
+    padding: 5vw;
+    background: linear-gradient(173deg, rgba(202,219,255,1) 0%, rgba(151,163,250,1) 100%);
+    box-shadow: 0px 11px 15px 5px #3559DE;
+    border-bottom: 2px #3559DE solid;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+#shifts-page-container:before{
+    content: "";
+    background: linear-gradient(111deg, rgb(135, 185, 255) 0%, rgb(59, 62, 255) 100%);
+    width: 145vw;
+    height: 55vw;
+    bottom: 20vw;
+    top: 72vh;
+    left: -25vw;
+    transform: rotateZ(30deg);
+    z-index: -1;
+    position: absolute;
+}
+/* 
+#shifts-page-container{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background: linear-gradient(
+        150deg,
+        rgb(237, 242, 255) 0%,
+        rgb(126, 141, 255) 100%
+      );
+} */
+
+#shiftpage-messages-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:620px) {
+    #shifts-page-header{
+        font-size: 5vw;
+        text-align: center;
+    }
+ }

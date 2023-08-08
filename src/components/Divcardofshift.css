@@ -1,0 +1,141 @@
+
+.cardofshift-container{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    height: 10vw;
+    align-items: center;
+    background-color: rgb(89, 108, 251);
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    padding: 3vw;
+    font-size: 1.5vw;
+    margin: 2vw;
+    box-shadow: 0px 1px 4px 2px #dcdff1;
+    transition: 0.6s;
+}
+.cardofshift-container:hover{
+    box-shadow: 0px 1px 4px 2px #2440db;
+}
+.cardofshift-infobuttons-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80vw;
+    height: 10vw;
+    align-items: center;
+    background-color: rgb(89, 108, 251);
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    padding: 3vw;
+    font-size: 1.5vw;
+    margin: 2vw;
+    transition: 0.6s;
+    padding-top: 3.5vw;
+
+}
+.cardofshift-info-container{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+.cardofshift-buttons-container{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+.object-parts{
+    font-size: 2vw;
+}
+.input-hour-shift{
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0px 0px 5px 2px #2ae605;
+    padding: 1vw;
+    margin: 0.8vw;
+}
+.cardofshift-times-container{
+    display: flex;
+    align-items: center;
+}
+.submit-shift-button{
+    font-size: 1.2vw;
+    padding: 0.3vw;
+    margin: 0.3vw;
+    border-radius: 15px;
+    background-color: rgb(59, 59, 96);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.submit-shift-button:hover{
+    box-shadow: 0px 0px 5px 2px #2ae605;
+}
+.input-hour-shift-end{
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0px 0px 5px 2px #e60541;
+    padding: 1vw;
+}
+.button-in{
+    font-size: 1.5vw;
+    padding: 0.2vw;
+    margin: 0.3vw;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.button-in:hover{
+    background-color: rgb(107, 107, 242);
+}
+@media screen and (max-width:1020px) {
+    .cardofshift-container{
+        width: 75vw;
+        height: 7vw;
+        padding: 0.1vw;
+        margin: 1vw;
+        display: flex;
+        flex-direction: column;
+        height: 20vw;
+    }
+    .cardofshift-info-container{
+        width: 70vw;
+        font-size: 2vw;
+    }
+    .cardofshift-buttons-container {
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    .object-parts{
+        font-size: 3vw;
+    }
+    .button-in{
+        font-size: 2.5vw;
+        padding: 0.9vw;
+    }
+    .input-hour-shift{
+        font-size: 2vw;
+    }
+    .cardofshift-times-container{
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    .submit-shift-button{
+        font-size: 2.5vw;
+        padding: 1vw;
+    }
+    .input-hour-shift-end{
+        font-size: 2vw;
+    }
+    .cardofshift-infobuttons-container{
+        width: 75vw;
+    }
+    #sort-select{
+        width: 40vw;
+    }
+}

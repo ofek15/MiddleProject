@@ -1,0 +1,204 @@
+#login-container{
+    background-color: white;
+    width: 100%;
+    display: flex; 
+    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+}
+#login-inner{
+   /* display:flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   width: 60%;
+   background-color: rgb(89, 108, 251);
+   margin: 40px;
+   padding: 15px;
+   height: 400px;
+   align-items: center;
+   border-radius: 15px;
+   color: white; */
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  width: 40vw;
+  height: 40vw;
+  flex-direction: column;
+  gap: 35px;
+  background: linear-gradient(180deg, rgb(186, 207, 255) 0%, rgb(177, 166, 255)100%);
+  box-shadow: 16px 16px 32px #c8c8c8,
+        -16px -16px 32px #fefefe;
+  border-radius: 8px;
+    margin-top: 3vw;
+}
+#login-tittle{
+   text-align: center;
+   color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    display: block;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#login-btn{
+    width: 13vw;
+    color: rgb(11, 4, 62);
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgb(186, 207, 255) 0%, rgb(177, 166, 255)100%);
+    padding: 2px;
+    font-size: 1.5vw;
+    transition: 0.5s ease;
+}
+#login-btn:hover{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(110, 154, 255) 0%, rgb(49, 34, 164)100%);
+}
+
+.login-input{
+    /* border-radius: 10px;
+    color: rgb(89, 108, 251);
+    width: 150px;
+    border: white solid;
+    border-radius: 5px;
+    margin-left: 3px; */
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1.8vw;
+    background: transparent;
+    border: 2px solid black;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+}
+
+.login-div{
+    display: flex;
+    align-items: center;
+    margin: 2vw;
+    position: relative;
+
+}
+#divofsubmit-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    position: absolute;
+    top: -1.5vw;
+  pointer-events: none;
+  font-size: 1.2vw;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 2px;
+  border: 2px solid black;
+}
+  .username-login-container{
+    margin-bottom: 4vw;
+  }
+.login {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  display: block;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 26vw;
+  width: 26vw;
+  flex-direction: column;
+  gap: 3vw;
+  background: #e3e3e3;
+  box-shadow: 16px 16px 32px #c8c8c8,
+        -16px -16px 32px #fefefe;
+  border-radius: 8px;
+}
+
+.inputBox {
+  position: relative;
+  width: 15vw;
+}
+
+
+
+#credit-card-container{
+    padding-bottom: 5vw;
+    z-index: 1;
+}
+#buymembership-button{
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(191, 223, 250);
+    padding: 1vw;
+    cursor: pointer;
+    transition: 1s;
+}
+#buymembership-button:hover{
+    background-color: rgb(249, 202, 140);
+}
+.submit-card-input{
+    border: 1px solid black;
+    margin: 1vw;
+    padding: 2vw;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgb(186, 207, 255) 0%, rgb(177, 166, 255)100%);
+}
+.submit-card-button{
+    border: 1px solid black;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgb(233, 243, 126) 0%, rgb(255, 255, 106)100%);
+    margin-left: 8vw;
+    cursor: pointer;
+}
+.creditcard-styling-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.submit-button-login-div{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:620px) {
+    #login-btn{
+     width: 20vw;
+     font-size: 4.5vw;
+    }
+    .login-input{
+     width: 40vw;
+    }
+    #login-inner{
+     width: 75%;
+    }
+    #login-tittle{
+     font-size: 5vw;
+    }
+    .user{
+     font-size: 3vw;
+     top: -3.7vw;
+    }
+    .login-div{
+        margin-bottom: 8vw;
+    }
+    #buymembership-button{
+        padding: 3vw;
+    }
+    .creditcard-styling-container{
+        flex-direction: column;
+    }
+ }

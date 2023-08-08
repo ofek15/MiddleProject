@@ -1,0 +1,149 @@
+{
+    "workers": [
+      {
+        "ID": 200000001,
+        "Username": "john.doe",
+        "Password": "password123",
+        "Phone": "0531234567",
+        "Admin": false,
+        "Color": "blue",
+        "FullName": "John Doe"
+      },
+      {
+        "ID": 300000002,
+        "Username": "jane.smith",
+        "Password": "secret321",
+        "Phone": "0542345678",
+        "Admin": true,
+        "Color": "yellow",
+        "FullName": "Jane Smith"
+      },
+      {
+        "ID": 200000003,
+        "Username": "michael.brown",
+        "Password": "qwerty789",
+        "Phone": "0533456789",
+        "Admin": false,
+        "Color": "red",
+        "FullName": "Michael Brown"
+      },
+      {
+        "ID": 300000004,
+        "Username": "sarah.jones",
+        "Password": "p@ssw0rd",
+        "Phone": "0504567890",
+        "Admin": false,
+        "Color": "pink",
+        "FullName": "Sarah Jones"
+      },
+      {
+        "ID": 200000005,
+        "Username": "robert.wilson",
+        "Password": "secure456",
+        "Phone": "0545678901",
+        "Admin": false,
+        "Color": "green",
+        "FullName": "Robert Wilson"
+      },
+      {
+        "ID": 300000006,
+        "Username": "emily.thomas",
+        "Password": "password123",
+        "Phone": "0536789012",
+        "Admin": true,
+        "Color": "orange",
+        "FullName": "Emily Thomas"
+      },
+      {
+        "ID": 200000007,
+        "Username": "david.miller",
+        "Password": "secret321",
+        "Phone": "0507890123",
+        "Admin": false,
+        "Color": "purple",
+        "FullName": "David Miller"
+      },
+      {
+        "ID": 300000008,
+        "Username": "jessica.davis",
+        "Password": "qwerty789",
+        "Phone": "0548901234",
+        "Admin": false,
+        "Color": "green",
+        "FullName": "Jessica Davis"
+      },
+      {
+        "ID": 200000009,
+        "Username": "ryan.wilson",
+        "Password": "p@ssw0rd",
+        "Phone": "0539012345",
+        "Admin": false,
+        "Color": "blue",
+        "FullName": "Ryan Wilson"
+      },
+      {
+        "ID": 300000010,
+        "Username": "amanda.johnson",
+        "Password": "secure456",
+        "Phone": "0540123456",
+        "Admin": true,
+        "Color": "pink",
+        "FullName": "Amanda Johnson"
+      },
+      {
+        "ID": 200000011,
+        "Username": "matthew.brown",
+        "Password": "password123",
+        "Phone": "0531234567",
+        "Admin": false,
+        "Color": "yellow",
+        "FullName": "Matthew Brown"
+      },
+      {
+        "ID": 300000012,
+        "Username": "olivia.thompson",
+        "Password": "secret321",
+        "Phone": "0542345678",
+        "Admin": false,
+        "Color": "red",
+        "FullName": "Olivia Thompson"
+      },
+      {
+        "ID": 200000013,
+        "Username": "william.roberts",
+        "Password": "qwerty789",
+        "Phone": "0533456789",
+        "Admin": false,
+        "Color": "orange",
+        "FullName": "William Roberts"
+      },
+      {
+        "ID": 300000014,
+        "Username": "sophia.hall",
+        "Password": "p@ssw0rd",
+        "Phone": "0504567890",
+        "Admin": false,
+        "Color": "purple",
+        "FullName": "Sophia Hall"
+      },
+      {
+        "ID": 200000015,
+        "Username": "jacob.white",
+        "Password": "secure456",
+        "Phone": "0545678901",
+        "Admin": true,
+        "Color": "green",
+        "FullName": "Jacob White"
+      },
+      {
+        "ID": 300000016,
+        "Username": "mia.davis",
+        "Password": "password123",
+        "Phone": "0536789012",
+        "Admin": false,
+        "Color": "yellow",
+        "FullName": "Mia Davis"
+      }
+    ]
+  }
+  
